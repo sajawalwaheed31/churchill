@@ -395,6 +395,11 @@
 .main-container .proven-result {
     background-color: #fefdfa;
 }
+@media (min-width: 320px) and (max-width: 767px){
+    .main-container .proven-result {
+        display: none;
+    }
+}
 .main-container .proven-result .result {
     height: 915px;
     padding-top: 85px;
